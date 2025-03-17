@@ -16,3 +16,20 @@ nav > ul > li > a {
 .font-Ovo {
   font-family: Ovo;
 }
+
+.shadowLightMode:hover {
+  box-shadow: 4px 4px 0 #000;
+}
+
+.shadowDarkMode {
+  box-shadow: 4px 4px 0 #fff;
+}
+
+.lightHover:hover {
+  background-color: #fcf4ff;
+}
+
+.darkHover {
+  background-color: #2a004a;
+}
+
