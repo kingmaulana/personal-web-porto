@@ -17,8 +17,8 @@ function Services() {
                 <div key={index}
                 className='border border-gray-400 rounded-lg px-8 py-12 shadowLightMode cursor-pointer lightHover hover:-translate-y-1 duration-500'>
                     <Image src={icon} alt={title} className='w-10' />
-                    <h3 className='text-lg my-4 text-gray-700'>{title}</h3>
-                    <p className='text-sm text-gray-600 leading-5'>
+                    <h3 className='text-lg my-4 text-gray-700 whiteText'>{title}</h3>
+                    <p className='text-sm text-gray-600 leading-5 whiteText'>
                         {description}
                     </p>
                     <a href={link} className='flex items-center gap-2 text-md mt-5'>Read More <Image className='w-4' src={assets.right_arrow} alt=''/></a>

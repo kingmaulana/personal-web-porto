@@ -5,6 +5,16 @@
   --foreground: #171717;
 }
 
+.dark {
+  --background: #11001F;
+  --foreground: #ffffff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
 *{
   font-family: Outfit;
 }
@@ -21,6 +31,11 @@ nav > ul > li > a {
   box-shadow: 4px 4px 0 #000;
 }
 
+
+.dark .shadowLightMode {
+  background-color: #11001F;
+}
+
 .shadowDarkMode {
   box-shadow: 4px 4px 0 #fff;
 }
@@ -29,10 +44,27 @@ nav > ul > li > a {
   background-color: #fcf4ff;
 }
 
+.dark .lightHover:hover {
+  background-color: #000;
+}
+
+.dark .borderDarkMode {
+  border: 2px solid #fff;
+}
+
+.dark .whiteText {
+  color: #ffff;
+}
+.dark .blackText {
+  color: #000;
+}
+
 .darkHover {
   background-color: #2a004a;
 }
 
 .gridColAuto {
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
+

@@ -35,6 +35,21 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import apollo from './apollo.png';
+import ec2 from './ec2.png';
+import express from './express.png';
+import jest from './jest.png';
+import jwt from './jwt.png';
+import node from './node.png';
+import postgres from './postgres.png';
+import react from './react.png';
+import redis from './redis.png';
+import redux from './redux.png';
+import socket from './socket.png';
+import tailwindcss from './tailwindcss.png';
+import typescript from './typescript.png';
+import akbar_logo from './akbar_logo.png';
+import akbar_logo_dark from './akbar_logo_dark.png';
 
 export const assets = {
     user_image,
@@ -73,30 +88,67 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    apollo,
+    ec2,
+    express,
+    jest,
+    jwt,
+    node,
+    postgres,
+    react,
+    redis,
+    redux,
+    socket,
+    tailwindcss,
+    typescript,
+    akbar_logo,
+    akbar_logo_dark
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
-    },
-    {
-        title: 'Geo based app',
+        title: 'GoFit - Mobile Workout AI',
         description: 'Mobile App',
+        bgImage: '/work-1.png',
+        link: 'https://github.com/kingmaulana/gofit'
+    },
+    {
+        title: 'Kekar - Marketplace Supplement',
+        description: 'Web App',
         bgImage: '/work-2.png',
+        link: 'https://github.com/kingmaulana/kekar'
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Momento - Minimalist Social Media',
+        description: 'Mobile App',
         bgImage: '/work-3.png',
+        link: 'https://github.com/kingmaulana/momento'
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'Future Travel - AI Planning',
+        description: 'Web App',
         bgImage: '/work-4.png',
+        link: 'https://github.com/kingmaulana/future-travel-ai-fullstack'
     },
+    {
+        title: 'Nubipro - Digital Game Distribution',
+        description: 'Web App',
+        bgImage: '/work-1.png',
+        link: 'https://github.com/kingmaulana/nubipro'
+    },
+    {
+        title: 'Luxmind - Market Luxury Brand',
+        description: 'Web App',
+        bgImage: '/work-2.png',
+        link: 'https://github.com/Hendyvelarius/nubipro'
+    },
+    {
+        title: 'Find It - Real Time Multiplayser Game',
+        description: 'Mobile App',
+        bgImage: '/work-3.png',
+        link: 'https://github.com/kingmaulana/find-it'
+    }    
 ]
 
 export const serviceData = [
@@ -107,11 +159,11 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript, Typescript, React Js, Next Js and many more' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: "Bachelor's degree in Information System" },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 web and mobile projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git, assets.jest, assets.jwt, assets.node, assets.postgres, assets.react, assets.redis, assets.redux, assets.socket, assets.tailwindcss, assets.typescript, assets.apollo, assets.ec2
 ];
