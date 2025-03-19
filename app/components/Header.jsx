@@ -9,22 +9,22 @@ import TextPressure from '../effects/TextPressure'
 
 function Header() {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
-      <div className='mb-3'>
+    <div className="w-11/12 max-w-3xl text-center mx-auto min-h-screen flex flex-col items-center justify-center gap-4 pt-10">
+      <div className="relative flex items-center justify-center sm:mt-35">
         <Image
           src={assets.profile_img}
           alt="profile"
-          className="rounded-full w-32"
+          className="rounded-full w-32 relative z-10"
+        />
+        <CircularText
+          text="CODE - BUILD - DEPLOY - REPEAT - "
+          onHover="speedUp"
+          spinDuration={20}
+          className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-0"
         />
       </div>
 
-      <CircularText
-        text="CODE - BUILD - DEPLOY - REPEAT - "
-        onHover="speedUp"
-        spinDuration={20}
-        className="customClass hidden sm:block sm:top-56 absolute left-1/2 top-40 md:top-54 lg:top-52 transform -translate-x-1/2 -translate-y-1/2 z-0"
-      />
-      <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
+      <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3  mt-5 font-Ovo">
         Hi I'm Akbar Maulana{" "}
         <Image alt="" className="w-6" src={assets.hand_icon} />
       </h3>
@@ -46,6 +46,7 @@ function Header() {
         </div>
         web developer based in Borneo 🇮🇩
       </h1>
+
       <p className="max-w-2xl mx-auto font-Ovo">
         I am a fullstack developer from Central Borneo, Indonesia. I have a
         passion for creating beautiful and functional websites.
@@ -68,10 +69,8 @@ function Header() {
           my resume <Image src={assets.download_icon} alt="" className="w-4" />
         </a>
       </div>
-
-     
     </div>
   );
 }
 
-export default Header
+export default Header;
