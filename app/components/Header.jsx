@@ -10,7 +10,7 @@ import TextPressure from '../effects/TextPressure'
 function Header() {
   return (
     <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
-      <div>
+      <div className='mb-3'>
         <Image
           src={assets.profile_img}
           alt="profile"
@@ -18,12 +18,12 @@ function Header() {
         />
       </div>
 
-      {/* <CircularText
-        text="REACT*BITS*COMPONENTS*"
+      <CircularText
+        text="CODE - BUILD - DEPLOY - REPEAT - "
         onHover="speedUp"
         spinDuration={20}
-        className="custom-class absolute left-85 top-55 "
-      /> */}
+        className="customClass hidden sm:block sm:top-56 absolute left-1/2 top-40 md:top-54 lg:top-52 transform -translate-x-1/2 -translate-y-1/2 z-0"
+      />
       <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
         Hi I'm Akbar Maulana{" "}
         <Image alt="" className="w-6" src={assets.hand_icon} />

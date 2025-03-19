@@ -20,8 +20,8 @@ const TextPressure = ({
   strokeWidth = 2,
   className = '',
 
-  minFontSize = 24,
-
+  minFontSize = 12,
+  fontScale = 1,
 }) => {
   const containerRef = useRef(null);
   const titleRef = useRef(null);
@@ -75,8 +75,9 @@ const TextPressure = ({
 
     const { width: containerW, height: containerH } = containerRef.current.getBoundingClientRect();
 
-    let newFontSize = containerW / (chars.length / 2);
+    let newFontSize = containerW * 0.1; // 10% of container width
     newFontSize = Math.max(newFontSize, minFontSize);
+
 
     setFontSize(newFontSize);
     setScaleY(1);
@@ -191,6 +192,9 @@ const TextPressure = ({
             ref={(el) => (spansRef.current[i] = el)}
             data-char={char}
             className="inline-block"
+            style={{
+              marginRight: '-2px', // Reduce space between characters
+            }}
           >
             {char}
           </span>

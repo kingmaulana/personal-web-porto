@@ -8,7 +8,7 @@ function Services() {
   return (
     <div className='w-full px-[12%] py-10 scroll-mt-20' id='services'>
        <h4 className='text-center mb-2 text-lg font-Ovo'>What I offer</h4>
-       <h2 className='text-center text-5xl font-Ovo'>My Services</h2>
+       <h2 className='text-center text-5xl font-Ovo'>My specialization</h2>
 
        <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>I am a fullstack developer from Central Borneo, Indonesia. I have a passion for creating beautiful and functional websites.</p>
 

@@ -110,52 +110,58 @@ export const workData = [
     {
         title: 'GoFit - Mobile Workout AI',
         description: 'Mobile App',
-        bgImage: '/work-1.png',
+        bgImage: '/gofit.png',
         link: 'https://github.com/kingmaulana/gofit'
     },
     {
         title: 'Kekar - Marketplace Supplement',
         description: 'Web App',
-        bgImage: '/work-2.png',
+        bgImage: '/kekar.png',
         link: 'https://github.com/kingmaulana/kekar'
     },
     {
         title: 'Momento - Minimalist Social Media',
         description: 'Mobile App',
-        bgImage: '/work-3.png',
+        bgImage: '/momento.png',
         link: 'https://github.com/kingmaulana/momento'
     },
     {
         title: 'Future Travel - AI Planning',
         description: 'Web App',
-        bgImage: '/work-4.png',
+        bgImage: '/travel.png',
         link: 'https://github.com/kingmaulana/future-travel-ai-fullstack'
     },
     {
         title: 'Nubipro - Digital Game Distribution',
         description: 'Web App',
-        bgImage: '/work-1.png',
+        bgImage: '/nubipro.png',
         link: 'https://github.com/kingmaulana/nubipro'
     },
     {
         title: 'Luxmind - Market Luxury Brand',
         description: 'Web App',
-        bgImage: '/work-2.png',
+        bgImage: '/luxmind.png',
         link: 'https://github.com/Hendyvelarius/nubipro'
     },
     {
-        title: 'Find It - Real Time Multiplayser Game',
-        description: 'Mobile App',
-        bgImage: '/work-3.png',
+        title: 'Find It - Real Time Multiplayer Game',
+        description: 'Web App',
+        bgImage: '/spotit.png',
         link: 'https://github.com/kingmaulana/find-it'
-    }    
+    },
+    {
+        title: 'Stoic - Simple Meditation App',
+        description: 'Web App',
+        bgImage: '/stoic.png',
+        link: 'https://github.com/kingmaulana/stoic'
+    }       
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
+    { icon: assets.web_icon, title: 'Web app', description: 'Web development is the process of building, programming...', link: '' },
     { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    // { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]
 
 export const infoList = [

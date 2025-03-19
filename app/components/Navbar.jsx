@@ -56,19 +56,19 @@ const Navbar = ({isDarkMode, setIsDarkMode}) => {
             }`}
           >
             <li>
-              <a href="#top">Home</a>
+              <a className='hover:font-bold' href="#top">Home</a>
             </li>
             <li>
-              <a href="#about">About me</a>
+              <a className='hover:font-bold' href="#about">About me</a>
             </li>
             <li>
-              <a href="#services">Services</a>
+              <a className='hover:font-bold' href="#services">Services</a>
             </li>
             <li>
-              <a href="#work">My Work</a>
+              <a className='hover:font-bold' href="#work">My Work</a>
             </li>
             <li>
-              <a href="#contact">Contact me</a>
+              <a className='hover:font-bold' href="#contact">Contact me</a>
             </li>
           </ul>
 
