@@ -20,7 +20,7 @@ function Work({isDarkMode}) {
                     <p className='text-sm text-gray-700'>{project.description}</p>
                 </div>
 
-                <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition'>
+                <div className='border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-pink-600 transition'>
                     <a href={project.link} target='_blank'><Image src={assets.send_icon} alt='send icon' className='w-5'/></a> 
                 </div>
                 </div>
